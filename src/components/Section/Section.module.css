@@ -1,0 +1,7 @@
+.section:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.container {
+  @apply mx-auto max-w-4xl px-4;
+}

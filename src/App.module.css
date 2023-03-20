@@ -1,0 +1,4 @@
+.wrapper {
+  @apply grid h-full;
+  grid-template-rows: 1fr auto;
+}

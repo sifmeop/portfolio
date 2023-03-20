@@ -1,0 +1,17 @@
+.project {
+  @apply flex h-[25rem] gap-2;
+}
+
+.imageWrapper {
+  @apply h-auto w-[53rem];
+}
+
+.imageWrapper:hover .image {
+  object-position: bottom center;
+}
+
+.image {
+  @apply h-full w-full object-cover transition-all;
+  object-position: top center;
+  transition-duration: 5s;
+}
