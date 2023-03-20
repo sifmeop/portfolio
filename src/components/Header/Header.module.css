@@ -12,8 +12,5 @@
 }
 
 .item {
-  font-weight: 500;
-}
-
-.link {
+  @apply font-medium transition-colors hover:text-red;
 }

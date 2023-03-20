@@ -1,3 +1,7 @@
+.section {
+  @apply py-[9rem];
+}
+
 .section:nth-child(odd) {
   background-color: #f9f9f9;
 }

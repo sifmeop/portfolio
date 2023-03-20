@@ -19,11 +19,12 @@ export const projects: Project[] = [
   // },
   {
     id: 2,
-    title: 'siftday',
+    title: 'siftday 🍕',
     description: '',
     image: Siftday,
     stack: [
       'React',
+      'TS',
       'SCSS',
       'Tailwind',
       'Chakra UI',
@@ -35,7 +36,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'siftify',
+    title: 'siftify 🎵',
     description: '',
     image: Siftify,
     stack: ['T3 Stack', 'SCSS', 'Ant Design', 'Zustand'],
@@ -44,42 +45,33 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'siftlix',
+    title: 'siftlix 🍿',
     description: '',
     image: Siftlix,
     stack: [
       'Next',
-      'TypeScript',
+      'TS',
       'SCSS',
       'Tailwind',
       'Ant Design',
       'Redux Toolkit',
-      'RTQ Query',
-      'Framer Motion'
+      'RTQ Query'
     ],
     code: 'https://github.com/sifmeop/siftlix',
     demo: 'https://siftlix.vercel.app/'
   },
   {
     id: 5,
-    title: 'siftdos',
+    title: 'siftdos 📃',
     description: '',
     image: Siftdos,
-    stack: [
-      'Next',
-      'TypeScript',
-      'SCSS',
-      'Tailwind',
-      'Redux Toolkit',
-      'Redux Persist',
-      'Framer Motion'
-    ],
+    stack: ['Next', 'TS', 'SCSS', 'Tailwind', 'Redux Toolkit', 'Redux Persist'],
     code: 'https://github.com/sifmeop/siftdos',
     demo: 'https://siftdos.vercel.app/'
   },
   {
     id: 6,
-    title: 'OVROE',
+    title: 'OVROE 👕',
     description: '',
     image: Ovroe,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -88,7 +80,7 @@ export const projects: Project[] = [
   },
   {
     id: 7,
-    title: 'Rest',
+    title: 'Rest 🍽️',
     description: '',
     image: Rest,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -97,7 +89,7 @@ export const projects: Project[] = [
   },
   {
     id: 8,
-    title: 'Space-X',
+    title: 'SpaceX 🚀',
     description: '',
     image: SpaceX,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -106,7 +98,7 @@ export const projects: Project[] = [
   },
   {
     id: 9,
-    title: 'Cootels',
+    title: 'Cootels 🏨',
     description: '',
     image: Cootels,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -115,7 +107,7 @@ export const projects: Project[] = [
   },
   {
     id: 10,
-    title: 'Smart-Watch',
+    title: 'Smart-Watch ⌚',
     description: '',
     image: SmartWatch,
     stack: ['HTML', 'SCSS', 'JS'],

@@ -2,8 +2,8 @@ import Section from 'components/Section/Section'
 
 const Hero = () => {
   return (
-    <Section title='ABOUT ME'>
-      <div>123</div>
+    <Section id='home'>
+      <h1>HOME</h1>
     </Section>
   )
 }
