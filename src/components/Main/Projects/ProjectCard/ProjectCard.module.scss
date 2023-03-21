@@ -1,0 +1,51 @@
+.project {
+  @apply flex gap-7 rounded-xl bg-white p-5 shadow-lg;
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  &:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+  @media (max-width: 768px) {
+    @apply mx-auto w-fit items-center;
+    flex-direction: column !important;
+  }
+}
+
+.imageWrapper {
+  @apply flex w-[33rem] overflow-hidden rounded-xl shadow-lg;
+  @media (max-width: 768px) {
+    width: auto;
+  }
+}
+
+.image {
+  @apply transition-transform duration-500;
+  &:hover {
+    @apply scale-105;
+  }
+}
+
+.info {
+  @apply flex w-60 flex-col justify-center gap-4 text-center;
+}
+
+.name {
+  @apply text-2xl font-bold;
+}
+
+.list {
+  @apply flex flex-wrap justify-center gap-3 text-base font-semibold;
+}
+
+.item {
+  @apply bg-white p-3 shadow-md;
+}
+
+.links {
+  @apply flex items-center justify-between gap-3;
+}
+
+.link {
+  @apply flex items-center gap-1.5 transition-colors hover:text-red;
+}

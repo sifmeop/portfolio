@@ -1,6 +1,6 @@
-import Cootels from 'assets/images/cootels.png'
-import Ovroe from 'assets/images/ovroe.png'
-import Rest from 'assets/images/rest.png'
+import Cootels from 'assets/images/cootels.webp'
+import Ovroe from 'assets/images/ovroe.webp'
+import Rest from 'assets/images/rest.webp'
 import Siftday from 'assets/images/siftday.webp'
 import Siftdos from 'assets/images/siftdos.webp'
 import Siftify from 'assets/images/siftify.webp'
@@ -13,14 +13,12 @@ export const projects: Project[] = [
   // {
   //   id: 1,
   //   title: 'siftspeak',
-  //   description: '',
   //   image: '',
   //   stack: ['Next']
   // },
   {
     id: 2,
     title: 'siftday 🍕',
-    description: '',
     image: Siftday,
     stack: [
       'React',
@@ -37,7 +35,6 @@ export const projects: Project[] = [
   {
     id: 3,
     title: 'siftify 🎵',
-    description: '',
     image: Siftify,
     stack: ['T3 Stack', 'SCSS', 'Ant Design', 'Zustand'],
     code: 'https://github.com/sifmeop/siftify',
@@ -46,7 +43,6 @@ export const projects: Project[] = [
   {
     id: 4,
     title: 'siftlix 🍿',
-    description: '',
     image: Siftlix,
     stack: [
       'Next',
@@ -63,7 +59,6 @@ export const projects: Project[] = [
   {
     id: 5,
     title: 'siftdos 📃',
-    description: '',
     image: Siftdos,
     stack: ['Next', 'TS', 'SCSS', 'Tailwind', 'Redux Toolkit', 'Redux Persist'],
     code: 'https://github.com/sifmeop/siftdos',
@@ -72,7 +67,6 @@ export const projects: Project[] = [
   {
     id: 6,
     title: 'OVROE 👕',
-    description: '',
     image: Ovroe,
     stack: ['HTML', 'SCSS', 'JS'],
     code: 'https://github.com/sifmeop/OVROE',
@@ -81,7 +75,6 @@ export const projects: Project[] = [
   {
     id: 7,
     title: 'Rest 🍽️',
-    description: '',
     image: Rest,
     stack: ['HTML', 'SCSS', 'JS'],
     code: 'https://github.com/sifmeop/Rest',
@@ -90,7 +83,6 @@ export const projects: Project[] = [
   {
     id: 8,
     title: 'SpaceX 🚀',
-    description: '',
     image: SpaceX,
     stack: ['HTML', 'SCSS', 'JS'],
     code: 'https://github.com/sifmeop/Space-X',
@@ -99,7 +91,6 @@ export const projects: Project[] = [
   {
     id: 9,
     title: 'Cootels 🏨',
-    description: '',
     image: Cootels,
     stack: ['HTML', 'SCSS', 'JS'],
     code: 'https://github.com/sifmeop/Cootels',
@@ -108,7 +99,6 @@ export const projects: Project[] = [
   {
     id: 10,
     title: 'Smart-Watch ⌚',
-    description: '',
     image: SmartWatch,
     stack: ['HTML', 'SCSS', 'JS'],
     code: 'https://github.com/sifmeop/Smart-Watch',

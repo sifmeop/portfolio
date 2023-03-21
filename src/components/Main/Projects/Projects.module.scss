@@ -1,59 +1,7 @@
-.project {
-  @apply flex h-[25rem] gap-7 rounded-xl bg-white p-5 shadow-lg;
-  &:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  &:not(:last-child) {
-    margin-bottom: 1.875rem;
-  }
-}
-
 .title {
   @apply mb-1 text-xl font-bold text-red;
 }
 
 .subtitle {
   @apply mb-5 text-2xl font-bold;
-}
-
-.imageWrapper {
-  @apply h-auto w-[33rem] overflow-hidden rounded-xl shadow-lg;
-}
-
-/* .imageWrapper:hover .image { */
-/* } */
-
-.image {
-  @apply block h-full w-full bg-cover bg-top;
-  transition: all 1s ease;
-  &:hover {
-    @apply bg-bottom;
-  }
-}
-
-.info {
-  @apply flex w-60 flex-col justify-center gap-4 text-center;
-}
-
-.name {
-  @apply text-2xl font-bold;
-}
-
-/* .description { */
-/* } */
-
-.list {
-  @apply flex flex-wrap justify-center gap-3 text-base font-semibold;
-}
-
-.item {
-  @apply bg-white p-3 shadow-md;
-}
-
-.links {
-  @apply flex items-center justify-between gap-3;
-}
-
-.link {
-  @apply flex items-center gap-1.5 transition-colors hover:text-red;
 }

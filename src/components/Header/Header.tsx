@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react'
+
+import BurgerMenu from './BurgerMenu/BurgerMenu'
 import styles from './Header.module.css'
 
 interface Link {
@@ -14,18 +17,31 @@ const links: Link[] = [
 ]
 
 const Header = () => {
+  const [open, setOpen] = useState<boolean>(false)
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+  }, [open])
+
   return (
     <header className={styles.header}>
       <h1 className={styles.creator}>sifmeop</h1>
-      <nav>
+      <nav className={open ? `${styles.menu} ${styles.open}` : styles.menu}>
         <ul className={styles.list}>
           {links.map((link) => (
             <li key={link.id} className={styles.item}>
-              <a href={link.href}>{link.title}</a>
+              <a href={link.href} onClick={() => setOpen(false)}>
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>
       </nav>
+      <BurgerMenu open={open} setOpen={setOpen} />
     </header>
   )
 }

@@ -14,3 +14,26 @@
 .item {
   @apply font-medium transition-colors hover:text-red;
 }
+
+.open {
+  @apply h-full w-full bg-red text-white;
+  transform: translate(0) !important;
+}
+
+@media (max-width: 768px) {
+  .header {
+    @apply px-6 py-4;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu {
+    @apply fixed top-0 left-0 h-full w-full max-w-full -translate-x-[200%] transition-all;
+  }
+  .list {
+    @apply h-full flex-col justify-center gap-6;
+  }
+  .item {
+    @apply text-3xl;
+  }
+}
