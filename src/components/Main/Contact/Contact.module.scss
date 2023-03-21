@@ -1,0 +1,31 @@
+.title {
+  @apply mb-1 text-xl font-bold text-red;
+}
+
+.subtitle {
+  @apply mb-5 text-2xl font-bold;
+}
+
+.contacts {
+  @apply flex items-center gap-20;
+}
+
+.contactItem {
+  @apply flex items-center gap-5;
+}
+
+.icon {
+  @apply grid h-16 w-16 place-items-center rounded-full;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.linkTitle {
+  @apply text-xl font-semibold;
+}
+
+.link {
+  @apply text-[#767676] transition-colors;
+  &:hover {
+    @apply text-red underline;
+  }
+}
