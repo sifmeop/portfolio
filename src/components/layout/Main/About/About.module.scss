@@ -1,0 +1,25 @@
+.about {
+  @apply flex items-center justify-between gap-5;
+}
+
+.title {
+  @apply mb-1 text-xl font-bold text-red;
+}
+
+.subtitle {
+  @apply mb-5 text-2xl font-bold;
+}
+
+.description {
+  @apply font-medium text-gray;
+}
+
+.photo {
+  @apply h-[21rem] w-[25rem] rounded-3xl object-cover;
+}
+
+@media (max-width: 768px) {
+  .about {
+    @apply flex-col text-center;
+  }
+}
