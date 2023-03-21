@@ -1,12 +1,11 @@
 import About from './About/About'
 import Contacts from './Contact/Contact'
 import Hero from './Hero/Hero'
-import styles from './Main.module.scss'
 import Projects from './Projects/Projects'
 
 const Main = () => {
   return (
-    <main className={styles.main}>
+    <main>
       <Hero />
       <About />
       <Projects />

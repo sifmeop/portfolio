@@ -24,7 +24,7 @@
 }
 
 .link {
-  @apply text-[#767676] transition-colors;
+  @apply text-gray transition-colors;
   &:hover {
     @apply text-red underline;
   }

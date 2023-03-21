@@ -13,5 +13,8 @@
 }
 
 .links {
-  @apply flex items-center gap-3;
+  @apply flex items-center gap-5 transition-transform;
+  & a:hover {
+    @apply scale-105;
+  }
 }

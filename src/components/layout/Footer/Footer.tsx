@@ -10,10 +10,10 @@ const Footer = () => {
       </p>
       <div className={styles.links}>
         <a target='_blank' href='https://github.com/sifmeop'>
-          <FaGithub size='1.5rem' />
+          <FaGithub size='2rem' />
         </a>
         <a target='_blank' href=''>
-          <FaLinkedin size='1.5rem' />
+          <FaLinkedin size='2rem' />
         </a>
       </div>
     </footer>

@@ -1,0 +1,66 @@
+.hero {
+  @apply flex items-center justify-between gap-6;
+}
+
+.text {
+  @apply max-w-[30rem];
+}
+
+.title {
+  @apply mb-6 text-7xl font-bold;
+}
+
+.description {
+  @apply mb-6 text-gray;
+}
+
+.photo {
+  @apply relative h-[21.875rem] w-[21.875rem] bg-cover bg-no-repeat transition-all;
+  background-image: url(/src/assets/images/its-me.webp);
+  animation: morph 4s ease-in-out infinite;
+  background-position: 50%;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+
+.links {
+  @apply flex items-center gap-5;
+  & svg {
+    @apply transition-colors;
+    &:hover {
+      @apply text-red;
+    }
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    @apply flex-col-reverse text-center;
+  }
+  .text {
+    @apply mb-4;
+  }
+  .photo {
+    @apply h-60 w-60;
+  }
+  .title {
+    @apply text-5xl;
+  }
+  .links {
+    justify-content: center;
+  }
+}
