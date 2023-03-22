@@ -8,12 +8,6 @@ export default defineConfig({
     alias: {
       assets: '/src/assets',
       components: '/src/components'
-      // hooks: '/src/hooks',
-      // pages: '/src/pages',
-      // store: '/src/store',
-      // types: '/src/types',
-      // ui: '/src/ui',
-      // utils: '/src/utils'
     }
   }
 })

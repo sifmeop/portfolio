@@ -4,7 +4,7 @@
     @apply px-6 py-4;
   }
   @media (max-width: 425px) {
-    @apply flex-col justify-center;
+    @apply flex-col justify-center text-sm;
   }
 }
 

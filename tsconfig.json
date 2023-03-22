@@ -19,12 +19,6 @@
     "paths": {
       "assets/*": ["assets/*"],
       "components/*": ["components/*"]
-      // "hooks/*": ["hooks/*"],
-      // "pages/*": ["pages/*"],
-      // "store/*": ["store/*"],
-      // "types/*": ["types/*"],
-      // "ui/*": ["ui/*"],
-      // "utils": ["utils/*"]
     },
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },

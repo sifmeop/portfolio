@@ -7,7 +7,10 @@
 }
 
 .contacts {
-  @apply flex items-center gap-20;
+  @apply flex gap-20;
+  @media (max-width: 425px) {
+    @apply flex-col gap-5;
+  }
 }
 
 .contactItem {
