@@ -27,7 +27,11 @@ export const projects: Project[] = [
       'Tailwind',
       'Chakra UI',
       'Redux Toolkit',
-      'RTQ Query'
+      'RTQ Query',
+      'React Hook Form',
+      'Nest',
+      'Prisma',
+      'MongoDB'
     ],
     code: 'https://github.com/sifmeop/siftday',
     demo: 'https://siftday.vercel.app/'

@@ -1,5 +1,5 @@
 .project {
-  @apply flex gap-7 rounded-xl bg-white p-5 shadow-lg;
+  @apply flex items-center gap-7 rounded-xl bg-white p-5 shadow-lg;
   &:nth-child(even) {
     flex-direction: row-reverse;
   }
@@ -13,7 +13,7 @@
 }
 
 .imageWrapper {
-  @apply flex w-[33rem] overflow-hidden rounded-xl shadow-lg;
+  @apply flex h-fit w-[33rem] overflow-hidden rounded-xl shadow-lg;
   @media (max-width: 768px) {
     width: auto;
   }
