@@ -5,17 +5,20 @@ import Siftday from 'assets/images/siftday.webp'
 import Siftdos from 'assets/images/siftdos.webp'
 import Siftify from 'assets/images/siftify.webp'
 import Siftlix from 'assets/images/siftlix.webp'
+import Siftrate from 'assets/images/siftrate.webp'
 import SmartWatch from 'assets/images/smart-watch.webp'
 import SpaceX from 'assets/images/space-x.webp'
 import { Project } from 'types/project.interface'
 
 export const projects: Project[] = [
-  // {
-  //   id: 1,
-  //   title: 'siftspeak',
-  //   image: '',
-  //   stack: ['Next']
-  // },
+  {
+    id: 1,
+    title: 'siftrate 📝',
+    image: Siftrate,
+    stack: ['T3 Stack', 'SCSS', 'MongoDB'],
+    code: 'https://github.com/sifmeop/siftrate',
+    demo: 'https://siftrate.vercel.app/'
+  },
   {
     id: 2,
     title: 'siftday 🍕',
