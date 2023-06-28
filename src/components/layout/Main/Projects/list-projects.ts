@@ -6,13 +6,20 @@ import Siftdos from 'assets/images/siftdos.webp'
 import Siftify from 'assets/images/siftify.webp'
 import Siftlix from 'assets/images/siftlix.webp'
 import Siftrate from 'assets/images/siftrate.webp'
+import Siftshop from 'assets/images/siftshop.webp'
 import SmartWatch from 'assets/images/smart-watch.webp'
 import SpaceX from 'assets/images/space-x.webp'
 import { Project } from 'types/project.interface'
 
 export const projects: Project[] = [
   {
-    id: 1,
+    title: 'siftshop 🏪',
+    image: Siftshop,
+    stack: ['T3 Stack', 'SCSS', 'MongoDB'],
+    code: 'https://github.com/sifmeop/siftshop',
+    demo: 'https://siftshop.vercel.app/'
+  },
+  {
     title: 'siftrate 📝',
     image: Siftrate,
     stack: ['T3 Stack', 'SCSS', 'MongoDB'],
@@ -20,7 +27,6 @@ export const projects: Project[] = [
     demo: 'https://siftrate.vercel.app/'
   },
   {
-    id: 2,
     title: 'siftday 🍕',
     image: Siftday,
     stack: [
@@ -40,7 +46,6 @@ export const projects: Project[] = [
     demo: 'https://siftday.vercel.app/'
   },
   {
-    id: 3,
     title: 'siftify 🎵',
     image: Siftify,
     stack: ['T3 Stack', 'SCSS', 'Ant Design', 'Zustand'],
@@ -48,7 +53,6 @@ export const projects: Project[] = [
     demo: 'https://siftify.vercel.app/'
   },
   {
-    id: 4,
     title: 'siftlix 🍿',
     image: Siftlix,
     stack: [
@@ -64,7 +68,6 @@ export const projects: Project[] = [
     demo: 'https://siftlix.vercel.app/'
   },
   {
-    id: 5,
     title: 'siftdos 📃',
     image: Siftdos,
     stack: ['Next', 'TS', 'SCSS', 'Tailwind', 'Redux Toolkit', 'Redux Persist'],
@@ -72,7 +75,6 @@ export const projects: Project[] = [
     demo: 'https://siftdos.vercel.app/'
   },
   {
-    id: 6,
     title: 'OVROE 👕',
     image: Ovroe,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -80,7 +82,6 @@ export const projects: Project[] = [
     demo: 'https://sifmeop.github.io/OVROE/'
   },
   {
-    id: 7,
     title: 'Rest 🍽️',
     image: Rest,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -88,7 +89,6 @@ export const projects: Project[] = [
     demo: 'https://sifmeop.github.io/Rest/'
   },
   {
-    id: 8,
     title: 'SpaceX 🚀',
     image: SpaceX,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -96,7 +96,6 @@ export const projects: Project[] = [
     demo: 'https://sifmeop.github.io/Space-X/'
   },
   {
-    id: 9,
     title: 'Cootels 🏨',
     image: Cootels,
     stack: ['HTML', 'SCSS', 'JS'],
@@ -104,7 +103,6 @@ export const projects: Project[] = [
     demo: 'https://sifmeop.github.io/Cootels/'
   },
   {
-    id: 10,
     title: 'Smart-Watch ⌚',
     image: SmartWatch,
     stack: ['HTML', 'SCSS', 'JS'],

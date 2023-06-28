@@ -10,11 +10,9 @@ interface Props {
 const ProjectCard = ({ project }: Props) => {
   return (
     <div className={styles.project}>
-      {/* <div className={styles.imageWrapper}> */}
       <a target='_blank' href={project.demo} className={styles.imageWrapper}>
         <img src={project.image} alt={project.title} className={styles.image} />
       </a>
-      {/* </div> */}
       <div className={styles.info}>
         <h2 className={styles.name}>{project.title}</h2>
         <ul className={styles.list}>
