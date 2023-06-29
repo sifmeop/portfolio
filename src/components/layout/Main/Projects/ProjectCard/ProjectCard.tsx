@@ -23,10 +23,12 @@ const ProjectCard = ({ project }: Props) => {
           ))}
         </ul>
         <div className={styles.links}>
-          <a target='_blank' href={project.code} className={styles.link}>
-            Code
-            <FaGithub size='1.3rem' />
-          </a>
+          {project.code && (
+            <a target='_blank' href={project.code} className={styles.link}>
+              Code
+              <FaGithub size='1.3rem' />
+            </a>
+          )}
           <a target='_blank' href={project.demo} className={styles.link}>
             Live Demo
             <FaExternalLinkAlt size='1.3rem' />

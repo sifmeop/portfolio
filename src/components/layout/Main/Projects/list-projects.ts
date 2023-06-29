@@ -9,6 +9,7 @@ import Siftrate from 'assets/images/siftrate.webp'
 import Siftshop from 'assets/images/siftshop.webp'
 import SmartWatch from 'assets/images/smart-watch.webp'
 import SpaceX from 'assets/images/space-x.webp'
+import Waxtools from 'assets/images/waxtools.webp'
 import { Project } from 'types/project.interface'
 
 export const projects: Project[] = [
@@ -73,6 +74,23 @@ export const projects: Project[] = [
     stack: ['Next', 'TS', 'SCSS', 'Tailwind', 'Redux Toolkit', 'Redux Persist'],
     code: 'https://github.com/sifmeop/siftdos',
     demo: 'https://siftdos.vercel.app/'
+  },
+  {
+    title: 'WaxTools ⚙️',
+    image: Waxtools,
+    stack: [
+      'Next.js',
+      'SCSS',
+      'Tailwind',
+      'Redux Toolkit',
+      'React Hook Form',
+      '@waxio/waxjs',
+      'eosjs',
+      'highcharts',
+      'next-translate'
+    ],
+    code: null,
+    demo: 'https://waxtools.net/'
   },
   {
     title: 'OVROE 👕',
