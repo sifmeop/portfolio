@@ -1,3 +1,4 @@
+import { BsFillFileEarmarkPdfFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 import styles from './Footer.module.scss'
@@ -14,6 +15,9 @@ const Footer = () => {
         </a>
         <a target='_blank' href='https://www.linkedin.com/in/eugene-selivestru'>
           <FaLinkedin size='2rem' />
+        </a>
+        <a href='/resume.pdf' download>
+          <BsFillFileEarmarkPdfFill size='2rem' />
         </a>
       </div>
     </footer>
