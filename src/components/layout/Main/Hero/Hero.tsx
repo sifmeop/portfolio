@@ -1,5 +1,5 @@
 import { BsFillFileEarmarkPdfFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa'
 
 import Section from 'components/Section/Section'
 import styles from './Hero.module.scss'
@@ -16,6 +16,9 @@ const Hero = () => {
             Novomoskovsk, Ukraine🔵🟡
           </p>
           <div className={styles.links}>
+            <a target='_blank' href='https://t.me/selivestru'>
+              <FaTelegram size='2rem' />
+            </a>
             <a target='_blank' href='https://github.com/sifmeop'>
               <FaGithub size='2rem' />
             </a>
