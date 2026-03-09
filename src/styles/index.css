@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+:root {
+  --font-mono: 'Space Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Nanum Pen Script', sans-serif;
+
+  --background: rgb(0, 0, 0);
+  --foreground: rgb(255, 255, 255);
+  --muted: rgb(128, 128, 128);
+  --border: rgba(255, 255, 255, 0.2);
+}
+
+@theme inline {
+  --font-mono: 'Space Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Nanum Pen Script', sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+}
+
+body {
+  @apply bg-background text-foreground overflow-x-hidden font-sans antialiased;
+}
